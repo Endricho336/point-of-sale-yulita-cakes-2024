@@ -2,7 +2,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: rgb(167, 108, 108);">
     <!-- Brand Logo -->
     <a href="/" class="brand-link">
-        <img src="{{ asset('logo-pink.jpeg') }}" alt="AdminLTE Logo"
+        <img src="{{ secure_asset('logo-pink.jpeg') }}" alt="AdminLTE Logo"
             class="brand-image img-circle elevation-3" style="opacity: 0.8" />
         <span class="brand-text font-weight-light">Yulita Cakes</span>
     </a>
@@ -12,7 +12,7 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="{{ asset('images/' . Auth::user()->foto_profil) }}" class="img-circle elevation-2"
+                <img src="{{ secure_asset('images/' . Auth::user()->foto_profil) }}" class="img-circle elevation-2"
                     alt="User Image" />
             </div>
             <div class="info">

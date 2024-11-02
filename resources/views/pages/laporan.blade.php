@@ -3,10 +3,10 @@
     - Laporan
 @endsection
 @section('stylesheet')
-    <link rel="stylesheet" href="{{ asset('assets/plugins/datatables/dataTables.bootstrap4.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/plugins/adminlte/css/toastr.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/datatables/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/adminlte/css/toastr.min.css') }}">
     <link rel="stylesheet"
-        href="{{ asset('assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+        href="{{ secure_asset('assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
 @endsection
 @section('content')
     <!-- Content Header (Page header) -->
@@ -78,10 +78,10 @@
     </section>
 @endsection
 @section('script')
-    <script src="{{ asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/adminlte/js/toastr.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/moment/moment.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
-    <script src="{{ asset('js/laporan.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/adminlte/js/toastr.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/moment/moment.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+    <script src="{{ secure_asset('js/laporan.js') }}"></script>
 @endsection

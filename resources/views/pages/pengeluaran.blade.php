@@ -3,8 +3,8 @@
     - Pengeluaran
 @endsection
 @section('stylesheet')
-    <link rel="stylesheet" href="{{ asset('assets/plugins/datatables/dataTables.bootstrap4.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/plugins/adminlte/css/toastr.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/datatables/dataTables.bootstrap4.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/adminlte/css/toastr.min.css') }}">
 @endsection
 @section('content')
     <!-- Content Header (Page header) -->
@@ -56,8 +56,8 @@
     </section>
 @endsection
 @section('script')
-    <script src="{{ asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
-    <script src="{{ asset('assets/plugins/adminlte/js/toastr.min.js') }}"></script>
-    <script src="{{ asset('js/pengeluaran.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/jquery.dataTables.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/datatables/dataTables.bootstrap4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/adminlte/js/toastr.min.js') }}"></script>
+    <script src="{{ secure_asset('js/pengeluaran.js') }}"></script>
 @endsection

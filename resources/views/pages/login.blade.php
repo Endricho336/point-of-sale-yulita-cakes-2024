@@ -11,11 +11,11 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback" />
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome-free/css/all.min.css') }}" />
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/fontawesome-free/css/all.min.css') }}" />
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{ asset('assets/plugins/adminlte/css/adminlte.min.css') }}" />
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/adminlte/css/adminlte.min.css') }}" />
 </head>
 
 <body class="hold-transition login-page">
@@ -26,7 +26,7 @@
                     <div class="card" style="border-radius: 1rem;">
                         <div class="row g-0">
                             <div class="col-md-6 col-lg-5 d-none d-md-block">
-                                <img src="{{ asset('logo-pink.jpeg') }}" alt="login form" class="img-fluid h-100"
+                                <img src="{{ secure_asset('logo-pink.jpeg') }}" alt="login form" class="img-fluid h-100"
                                     style="border-radius: 1rem 0 0 1rem;" />
                             </div>
                             <div class="col-md-6 col-lg-7 d-flex align-items-center">
@@ -43,7 +43,7 @@
                                         @endif
                                         <div class="d-flex align-items-center mb-3 pb-1">
                                             {{-- <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i> --}}
-                                            <img src="{{ asset('logo-putih.jpeg') }}" alt="" class="img-fluid"
+                                            <img src="{{ secure_asset('logo-putih.jpeg') }}" alt="" class="img-fluid"
                                                 style="width: 70px">
                                             <span class="h1 fw-bold mb-0">Yulita Cakes</span>
                                         </div>
@@ -76,11 +76,11 @@
     </section>
 
     <!-- jQuery -->
-    <script src="{{ asset('assets/plugins/jquery/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/jquery/jquery.min.js') }}"></script>
     <!-- Bootstrap 4 -->
-    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <!-- AdminLTE App -->
-    <script src="{{ asset('assets/plugins/adminlte/js/adminlte.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/plugins/adminlte/js/adminlte.min.js') }}"></script>
 </body>
 
 </html>

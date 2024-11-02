@@ -46,7 +46,7 @@
                             accept="image/*" />
                     </div>
                     <div class="mb-3 text-center">
-                        <img src="{{ asset(Auth::user()->foto_profil) }}" alt="Foto Profil" class="img-fluid d-none" id="fotoPreviewEdit"
+                        <img src="{{ secure_asset(Auth::user()->foto_profil) }}" alt="Foto Profil" class="img-fluid d-none" id="fotoPreviewEdit"
                             style="max-width: 200px; border-radius: 50%; border: 2px solid #ddd;" />
                     </div>
                 </div>
