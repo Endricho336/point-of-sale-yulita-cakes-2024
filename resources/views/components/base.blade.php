@@ -16,7 +16,7 @@
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{ asset('assets/plugins/adminlte/css/adminlte.min.css') }}" />
+    <link rel="stylesheet" href="{{ secure_asset('assets/plugins/adminlte/css/adminlte.min.css') }}" />
     @yield('stylesheet')
 </head>
 
